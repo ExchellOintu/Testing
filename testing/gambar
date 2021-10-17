@@ -1,0 +1,12 @@
+import turtle
+
+form=1
+lol=turtle.Turtle()
+lol.speed(0)
+while True:
+    lol.forward(form)
+    lol.left(120)
+    lol.left(1)
+    form+=1
+turtle.done()
+
